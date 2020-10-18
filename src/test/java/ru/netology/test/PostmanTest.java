@@ -19,7 +19,7 @@ public class PostmanTest {
                 .then()
                 .statusCode(200)
                 .contentType(ContentType.JSON)
-                .body("data", equalTo("Postman data fail"))
+                .body("data", equalTo("Postman data"))
         ;
     }
 }
